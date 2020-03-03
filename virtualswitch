@@ -1,0 +1,57 @@
+vmnic: fisico
+
+Switch virtual 
+
+minimo 6 tarjeta virtuales es recomendado o 2 tarjetas 10 GB 
+
+
+Solo es necesario una vmnic para funcionar. 
+
+soporta protocolos de switch 
+
+no es necesario SPT 
+
+VLAN por puerto
+
+//////////////////////////////////////
+
+
+Sistema de archivo 
+
+VMFS 
+
+compartir VM in datastore centralizado
+
+fiber channel, iscsi
+
+/////////////////////////////////
+
+Ficheros de VMWare
+
+Fichero de configuracion --> vm_nombre.vmx
+Fichero Swaps --> vm_nombre.vswp
+Fichero BIOS --> VM_nombre.vswp
+Fichero log --> vmware.log
+Fichero plantilla --> vm_nombre.vmtx
+Fichero descriptivo disco --> vm_nombre.vmdx
+Fichero datos disco --> vm_nombre-flat.vmdk
+Fichero Raw device map --> vm_nombre-rdm(p).vmdk
+FIchero disco snapshot --> vm_nombre-######.vmdk
+FIchero datos snapshot --> vm_nombre.vmsd
+Fichero estado snapshot -->vm_nombre-snapshot#.vmsn
+Fichero memoria snapshot --> vm_nombre-*.vmss
+FIchero estado suspend --> vm_nombre-*.vmss
+Fichero memoria suspended --> vm_nombre-*.vmem
+
+Almacenamiento> Explorar almacenes de datos> VM_nombre> <Ficheros encapsulados>
+
+/////////////////////////////////////////
+
+vmware host client
+
+vsphere web client
+
+vsphere client
+
+
+////////////////////////////////////////
